@@ -1,7 +1,57 @@
-.logo{ 
-	position:fixed; 
-	top:0; 
-	left:0; 
-	width: 300px;
-	height: auto; 
-} 
+.box_container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+body{
+	background-color: gray;
+	padding: 0;
+	margin: 0;
+
+}
+.box_container div{
+	width: 25%;
+
+	margin: 10px;
+	/* padding: 10px; */
+	text-align: center;
+	background-color:white;
+}
+
+h2 {
+	text-align: center;
+
+}
+
+#nav_bar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
+	background-color: white;
+
+}
+
+#nav_bar ul{
+	display: inline-flex;
+	list-style: none;
+	
+}
+#nav_bar ul li{
+	padding: 0 10px;
+}
+#nav_bar ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+#footer{
+	background-color: black;
+	position: fixed;
+	color: white;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+
+}
