@@ -12,7 +12,7 @@ body{
 }
 .box_container div{
 	width: 25%;
-
+	max-width: 300px;
 	margin: 10px;
 	/* padding: 10px; */
 	text-align: center;
